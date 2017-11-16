@@ -1,6 +1,9 @@
 ﻿#encoding: utf-8
 #usr/bin/env python
 
+import sys
+reload(sys)
+sys.setdefaultencoding('utf-8')
 
 from flask import Flask,render_template,request
 from xpinyin import Pinyin
